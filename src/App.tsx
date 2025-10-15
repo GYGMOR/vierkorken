@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Reindeer from './components/Reindeer';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/vierkorken">
       <div className="d-flex flex-column vh-100">
         <Reindeer />
         <Header />
@@ -24,9 +24,8 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
 export default App;
-
