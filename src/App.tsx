@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Reindeer from './components/Reindeer';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -9,17 +10,21 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="d-flex flex-column vh-100">
-      <Reindeer />
-      <Header />
-      <main className="flex-shrink-0">
-        <Home />
-        <ProductList />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="d-flex flex-column vh-100">
+        <Reindeer />
+        <Header />
+        <main className="flex-shrink-0">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<ProductList />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
