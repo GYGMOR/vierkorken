@@ -1,0 +1,32 @@
+.reindeer-container {
+  position: fixed;
+  top: 50%;
+  left: -100px; /* Start off-screen */
+  animation: jump 5s linear forwards;
+  z-index: 9999;
+}
+
+.reindeer {
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes jump {
+  0% {
+    left: -100px;
+    transform: translateY(0) scaleX(1);
+  }
+  25% {
+    transform: translateY(-50px) rotate(10deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-50px) rotate(-10deg);
+  }
+  100% {
+    left: 110vw; /* End off-screen */
+    transform: translateY(0) scaleX(-1); /* Flip the reindeer at the end */
+  }
+}
