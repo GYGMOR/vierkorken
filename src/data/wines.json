@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": 1,
+    "name": "Roter Tropfen",
+    "year": 2020,
+    "type": "Rotwein",
+    "price": 25.50,
+    "description": "Ein kräftiger Rotwein mit Noten von dunklen Beeren und einem Hauch von Eiche.",
+    "image": "wein-rot.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Heller Schimmer",
+    "year": 2022,
+    "type": "Weisswein",
+    "price": 19.90,
+    "description": "Ein frischer und fruchtiger Weisswein mit Aromen von Zitrusfrüchten und grünen Äpfeln.",
+    "image": "wein-weiss.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rosé Sommernacht",
+    "year": 2021,
+    "type": "Rosé",
+    "price": 22.00,
+    "description": "Ein eleganter Rosé mit dem Duft von Erdbeeren und einem Hauch von Gewürzen.",
+    "image": "wein-rose.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Goldener Herbst",
+    "year": 2019,
+    "type": "Rotwein",
+    "price": 35.00,
+    "description": "Ein komplexer Rotwein mit reifen Tanninen und einem langen Abgang.",
+    "image": "wein-rot-2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Perlenglanz",
+    "year": 2022,
+    "type": "Schaumwein",
+    "price": 29.90,
+    "description": "Ein spritziger Schaumwein mit feiner Perlage und Noten von Brioche.",
+    "image": "wein-schaum.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sonniger Hügel",
+    "year": 2021,
+    "type": "Weisswein",
+    "price": 21.50,
+    "description": "Ein trockener Weisswein mit mineralischen Noten und einem Hauch von Exotik.",
+    "image": "wein-weiss-2.jpg"
+  }
+]
